@@ -1,0 +1,129 @@
+@font-face {
+        src: url("/images/dragon_alphabet.ttf");
+        font-family: Skyrim;
+}
+
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Skyrim
+    /* font-family: 'Times New Roman', Times, serif */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+
+.avatar {
+    width: 150px;
+    box-shadow: 10px 10px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #1d2d44;
+    border-bottom: 6px solid #3e5c76;
+    border-left: 6px solid #3e5c76;
+    border-radius: 5px;
+    }
+    
+.hoverimg {
+  background-color: #f0ebd8;
+  background-size: cover;
+  background-position: center;
+  transition: background-color 0.5s ease-in-out; /* Smooth transition for the image change */
+}
+
+.hoverimg:hover {
+  background-image: url("images/Skyrim-Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+
+/* .card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background:#f0ebd8;
+    color: #1d2d44;
+    border-bottom: 6px solid #3e5c76;
+    border-left: 6px solid #3e5c76;
+    border-radius: 5px;
+    } */
+
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
+
+/* .card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background:#f0ebd8;
+    color: #1d2d44;
+    border-bottom: 6px solid #3e5c76;
+    border-left: 6px solid #3e5c76;
+    border-radius: 5px;
+    }
+    
+.hoverimg {
+  background-color: #f0ebd8;
+  background-image: url("images/skyrimlogo-wide.png"); 
+  background-size: cover;
+  background-position: center;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.hoverimg:hover {
+  background-image: url("images/skyrim.jpg");
+  background-image: url("images/skyrimlogo-wide.png"); 
+  background-image: url("images/Skyrim-Logo.png");
+  background-image: url("images/skyrimlogo2.png"); 
+  background-size: contain;
+}
+
+.hoverimg {
+  background-image: url("images/skyrimlogo-wide.png");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.hoverimg:hover {
+  background-image: url("images/skyrim.jpg");
+} */
