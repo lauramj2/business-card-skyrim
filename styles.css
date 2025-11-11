@@ -45,10 +45,6 @@ body {
   background-image: url("images/Skyrim-Logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  
-}
-
-.card-text:hover {
   font-family: Skyrim;
 }
 
