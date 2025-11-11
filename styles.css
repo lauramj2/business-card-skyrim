@@ -10,7 +10,7 @@ body {
     Find a web safe font you like, and add it 
     to your card.
     */
-    font-family: Skyrim
+    font-family: 'Times New Roman', Times, serif;
     /* font-family: 'Times New Roman', Times, serif */
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
@@ -48,6 +48,13 @@ body {
   
 }
 
+.card-text:hover {
+  font-family: Skyrim;
+}
+
+span {
+  display: block;
+}
 
 /* .card {
     width: 400px;
